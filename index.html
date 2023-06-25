@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/icon/File-Brother_Sister.png" type="image/x-icon">
+    <title>TSV hỏi BroSis trả lời</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <style>
+        .loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #F5F8FA;
+            z-index: 9998;
+            text-align: center;
+        }
+
+        .plane-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+<!-- Pre loader -->
+
+<!-- Header -->
+<nav class="mainnav navbar navbar-default justify-content-between">
+    <div class="container relative">
+        <a class="offcanvas dl-trigger paper-nav-toggle" data-toggle="offcanvas"
+           aria-expanded="false" aria-label="Toggle navigation">
+            <i></i>
+        </a>
+        <a class="navbar-brand" href="index.html">
+            <img class="d-inline-block align-top" alt="" style="width: 90px; height: 45px" src="assets/img/icon/File-Brother_Sister.png">
+        </a>
+        <div class="paper_menu">
+            <div id="dl-menu" class="xv-menuwrapper responsive-menu">
+    <ul class="dl-menu align-items-center">
+        <li><a href="#">Home</a></li>
+        <li class="parent"><a href="#">Pages</a>
+            <ul class="lg-submenu">
+                <li><a href="home2.html">Home Page 2</a>
+                <li><a href="single.html">Knowledgebase Single</a>
+                <li><a href="404.html">404 Page</a>
+                <li><a href="documentations.html">Documentation</a>
+                <li><a href="password-recovery.html">Forgot Password</a>
+            </li>
+            </ul>
+        </li>
+        <li class="parent"><a href="#">Blog</a>
+            <ul class="lg-submenu" style="width: 300px">
+                <li class="p-0">
+                    <div class="p-4">
+                        <div class="my-3">
+                            <a href="blog.html">
+                                <div class="media">
+                                    <i class="icon-circle-o w-20 s-36 text-primary"></i>
+                                    <div class="media-body">
+                                        <span class="mt-0 mb-0 font-weight-normal s-12">Paper Blog<br></span>
+                                        <span class="s-12">Simple Blog Layout</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="my-3">
+                            <a href="single.html">
+                                <div class="media">
+                                    <i class="icon-circle-o w-20 s-36 text-warning"></i>
+                                    <div class="media-body">
+                                        <span class="mt-0 mb-0 font-weight-normal s-12">Blog Single<br></span>
+                                        <span class="s-12">Blog Details Page</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="my-3">
+                            <a href="single2.html">
+                                <div class="media">
+                                    <i class="icon-circle-o w-20 s-36 text-info"></i>
+                                    <div class="media-body">
+                                        <span class="mt-0 mb-0 font-weight-normal s-12">Blog Single 2<br></span>
+                                        <span class="s-12"> A Post Style</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="light p-5">
+                        <h6>Mega Menu</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto autem.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        </div>
+    </div>
+</nav>
+<main>
+    <!-- Search Section -->
+    <section class="search-section home-search">
+        <div class="masthead text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-md-auto">
+                        <h1 style="color:#ffffff">Cẩm nang <br> Brothers and Sisters</h1>
+                        <p class="lead text-muted" style="font-family: montserrat" >TSV HỎI BROSIS TRẢ LỜI</p>
+                        <form>
+                            <input type="text" class="search-field" placeholder="Tìm kiếm thông tin">
+                            <button type="submit"><i class="icon icon-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Topics -->
+    <section class="topics">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o text-blue"></span>Lịch trình TSV</a></h3>
+                        <ul class="topics-list">
+                            <li><a> Cập nhật sau </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o text-red"></span>TACB</a>
+                        </h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> Tiêu chuẩn tiếng Anh đầu vào? </a>
+                            </li>
+                            <li><a href="single.html"> Bảng quy đổi tương đương các tín chỉ </a>
+                            </li>
+                            <li><a href="single.html"> Hệ thống các level tiếng Anh </a>
+                            </li>
+                            <li><a href="single.html"> Đã được xếp lớp TACB rồi nhưng muốn vào hẳn chuyên ngành/vượt level thì có cách nào không? </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o text-green"></span>GIẤY TỜ & HỌC PHÍ</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> Giấy xác nhận SV (Hoãn NVQS,...) </a>
+                            </li>
+                            <li><a href="single.html"> Phí đầu vào bao gồm những khoản gì? </a>
+                            </li>
+                            <li><a href="single.html"> Học phí mỗi kỳ là bao nhiêu? </a>
+                            </li>
+                            <li><a href="single.html"> Thủ tục chuyển ngành/chuyển cơ sở như thế nào? </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <a href="single.html"><li>See more</li></a>
+                            <li>(15)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6-1">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o text-purple"></span>Học bổng</a>
+                        </h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> Có bao nhiêu mức học bổng? </a>
+                            </li>
+                            <li><a href="single.html"> Hình thức đền học bổng như thế nào? </a>
+                            </li>
+                            <li><a href="single.html"> Vào trường rồi còn có thể lấy học bổng không? </a>
+                            </li>
+                            <li><a href="single.html"> Đổi ngành có mất học bổng không? </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o text-black"></span>Quân sự</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o text-yellow"></span> Hoạt động TSV</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span> OJT</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>Di chuyển</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                        <ul class="topics-meta">
+                            <li>15 Topics</li>
+                            <li>Level - Medium</li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="col-12  col-md-9 col-lg-12 offset-center">
+                <h1>
+                        <br>
+                        Các phòng ban
+                        <br>
+                </h1>
+            </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style-none">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>DỊCH VỤ SINH VIÊN</a></h3>
+                        <ul>
+                            <li> Nhiệm vụ: Hỗ trợ giải đáp thắc mắc tất cả các vấn đề liên quan đến SV
+                            </li>
+                            <li> Mail:sschcm@fe.edu.vn
+                            </li>
+                            <li> SĐT: 028.73005585
+                            </li>
+                            <li>Page:<a href="https://www.facebook.com/fptustudentaffairs"> FPT University Student Affairs </a>
+                            </li>
+                            <li> Phòng: 202
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style-none">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>TUYỂN SINH</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style-none">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>ĐÀO TẠO & KHẢO THÍ</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style-none">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>CÔNG TÁC SINH VIÊN</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style-none">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>IC-PDP</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="topics-wrapper border-style-none">
+                        <h3><a href="#"><span class="icon icon-circle-o"></span>QUAN HỆ DOANH NGHIỆP</a></h3>
+                        <ul class="topics-list">
+                            <li><a href="single.html"> How to use this documentation? </a>
+                            </li>
+                            <li><a href="single.html"> How to find topics? </a>
+                            </li>
+                            <li><a href="single.html"> What is included and why? </a>
+                            </li>
+                            <li><a href="single.html"> Basic knowledge requirments. </a>
+                            </li>
+                            <li><a href="single.html"> Getting Started &amp; What is next. </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class=" col-lg-2 col-xl-3 col-12 responsive-phone">
+                <img style="width:150px; height: 105x" src="assets/img/icon/File-Brother_Sister.png">
+                <span class="circle"></span>
+            </div>
+    <div class="col-12  col-md-9 col-lg-12">
+                    <p> Brothers and Sisters là một dự án đặc biệt tại trường Đại học FPT dựa trên mô hình "sinh viên giúp sinh viên".
+                        <br> Tại đây quy tụ các bạn sinh viên với kinh nghiệm, nhiệt huyết luôn sẵn sàng hỗ trợ các bạn TSV hòa nhập vào môi trường đại học một cách nhanh chóng nhất.</p>
+    </div>
+    </div>
+
+<!--End Page page_wrrapper -->
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
